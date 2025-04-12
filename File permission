@@ -1,12 +1,10 @@
-ubuntu@ip-172-31-13-255:~$ mkdir devops
-ubuntu@ip-172-31-13-255:~$ cd devops/
-ubuntu@ip-172-31-13-255:~/devops$ touch file1.txt
-ubuntu@ip-172-31-13-255:~/devops$ ls -ltr
+ubuntu@ip-172-31-9-233:~$ mkdir devops
+ubuntu@ip-172-31-9-233:~$ cd devops/
+ubuntu@ip-172-31-9-233:~/devops$ touch file1.txt
+ubuntu@ip-172-31-9-233:~/devops$ ls -ltr
+-rwxrw---- 1 ubuntu ubuntu 0 Apr 12 12:50 file1.txt
+ubuntu@ip-172-31-9-233:~/devops$ chmod -R 764 file1.txt
+ubuntu@ip-172-31-9-233:~/devops$ ls -ltr
 total 0
--rw-rw-r-- 1 ubuntu ubuntu 0 Apr  9 06:17 file1.txt
-ubuntu@ip-172-31-13-255:~/devops$ chmod -R 777 file1.txt
-ubuntu@ip-172-31-13-255:~/devops$ ls -ltr
-total 0
--rwxrwxrwx 1 ubuntu ubuntu 0 Apr  9 06:17 file1.txt
-ubuntu@ip-172-31-13-255:~/devops$
+-rwxrw-r-- 1 ubuntu ubuntu 0 Apr 12 12:50 file1.txt
 
