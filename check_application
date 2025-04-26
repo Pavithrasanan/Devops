@@ -1,0 +1,10 @@
+ubuntu@ip-172-31-9-233:~$ nc -zv guvi.com 9000
+^C
+ubuntu@ip-172-31-9-233:~$ telnet guvi.com 9000
+Trying 104.21.79.166...
+^C
+ubuntu@ip-172-31-9-233:~$ nc -zv google.com 80
+Connection to google.com (142.251.42.14) 80 port [tcp/http] succeeded!
+ubuntu@ip-172-31-9-233:~$
+
+
