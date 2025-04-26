@@ -1,0 +1,28 @@
+ubuntu@ip-172-31-9-233:~$ nslookup guvi.in
+Server:         127.0.0.53
+Address:        127.0.0.53#53
+
+Non-authoritative answer:
+Name:   guvi.in
+Address: 104.26.4.88
+Name:   guvi.in
+Address: 104.26.5.88
+Name:   guvi.in
+Address: 172.67.70.207
+Name:   guvi.in
+Address: 2606:4700:20::681a:458
+Name:   guvi.in
+Address: 2606:4700:20::681a:558
+Name:   guvi.in
+Address: 2606:4700:20::ac43:46cf
+
+ubuntu@ip-172-31-9-233:~$ free
+               total        used        free      shared  buff/cache   available
+Mem:          980388      369796      333568         892      439020      610592
+Swap:              0           0           0
+ubuntu@ip-172-31-9-233:~$ ping guvi.in
+PING guvi.in (172.67.70.207) 56(84) bytes of data.
+64 bytes from 172.67.70.207: icmp_seq=1 ttl=54 time=1.03 ms
+64 bytes from 172.67.70.207: icmp_seq=2 ttl=54 time=1.53 ms
+64 bytes from 172.67.70.207: icmp_seq=3 ttl=54 time=1.09 ms
+64 bytes from 172.67.70.207: icmp_seq=4 ttl=54 time=1.44 ms
