@@ -1,0 +1,14 @@
+ubuntu@ip-172-31-10-227:~$ mkdir my_folder
+ubuntu@ip-172-31-10-227:~$ cd my_folder/
+ubuntu@ip-172-31-10-227:~/my_folder$ touch my_file.txt
+ubuntu@ip-172-31-10-227:~/my_folder$ touch another_file.txt
+ubuntu@ip-172-31-10-227:~/my_folder$ echo "hi How are you?" >  another_file.txt
+ubuntu@ip-172-31-10-227:~/my_folder$ echo "I am fine thanks" > my_file.txt
+ubuntu@ip-172-31-10-227:~/my_folder$ cat another_file.txt >> my_file.txt
+ubuntu@ip-172-31-10-227:~/my_folder$ cat my_file.txt
+I am fine thanks
+hi How are you?
+ubuntu@ip-172-31-10-227:~/my_folder$ ls
+another_file.txt  my_file.txt
+ubuntu@ip-172-31-10-227:~/my_folder$
+
