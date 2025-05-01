@@ -1,0 +1,6 @@
+touch file_{1..20}.txt
+ls
+mv file_{1..5}.txt file_{1..5}.yml
+mv file_1.txt file_1.yml ; mv file_2.txt file_2.yml ; mv file_3.txt file_3.yml ; mv file_4.txt file_4.yml ; mv file_5.txt file_5.yml
+ls -lv
+ls -lv |head -n6
