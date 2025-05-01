@@ -1,0 +1,10 @@
+#!/bin/bash
+
+url="guvi.in"
+status=$(curl -o /dev/null -s -w "%{http_code}" "$url")
+
+if [ "$status" -eq 200 ]; then
+ echo "website is up; status = $status "
+else
+ echo "website is down; status = $status "
+fi
